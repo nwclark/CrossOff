@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70F3FE5297D8CEA001E9578 /* CrossOffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70F3FE4297D8CEA001E9578 /* CrossOffApp.swift */; };
+		C70F3FE7297D8CEA001E9578 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70F3FE6297D8CEA001E9578 /* Persistence.swift */; };
+		C70F3FEA297D8CEA001E9578 /* CrossOff.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C70F3FE8297D8CEA001E9578 /* CrossOff.xcdatamodeld */; };
+		C70F3FEC297D8CEA001E9578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70F3FEB297D8CEA001E9578 /* ContentView.swift */; };
+		C70F3FEE297D8CEA001E9578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70F3FED297D8CEA001E9578 /* Assets.xcassets */; };
+		C70F3FF2297D8CEA001E9578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70F3FF1297D8CEA001E9578 /* Preview Assets.xcassets */; };
+		C70F3FFC297D8CEA001E9578 /* CrossOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70F3FFB297D8CEA001E9578 /* CrossOffTests.swift */; };
+		C70F4006297D8CEA001E9578 /* CrossOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70F4005297D8CEA001E9578 /* CrossOffUITests.swift */; };
+		C70F4008297D8CEA001E9578 /* CrossOffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70F4007297D8CEA001E9578 /* CrossOffUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70F3FF8297D8CEA001E9578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70F3FD9297D8CE9001E9578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70F3FE0297D8CEA001E9578;
+			remoteInfo = CrossOff;
+		};
+		C70F4002297D8CEA001E9578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70F3FD9297D8CE9001E9578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70F3FE0297D8CEA001E9578;
+			remoteInfo = CrossOff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C70F3FE1297D8CEA001E9578 /* CrossOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70F3FE4297D8CEA001E9578 /* CrossOffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossOffApp.swift; sourceTree = "<group>"; };
+		C70F3FE6297D8CEA001E9578 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C70F3FE9297D8CEA001E9578 /* CrossOff.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrossOff.xcdatamodel; sourceTree = "<group>"; };
+		C70F3FEB297D8CEA001E9578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C70F3FED297D8CEA001E9578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70F3FEF297D8CEA001E9578 /* CrossOff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrossOff.entitlements; sourceTree = "<group>"; };
+		C70F3FF1297D8CEA001E9578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C70F3FF7297D8CEA001E9578 /* CrossOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70F3FFB297D8CEA001E9578 /* CrossOffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossOffTests.swift; sourceTree = "<group>"; };
+		C70F4001297D8CEA001E9578 /* CrossOffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossOffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70F4005297D8CEA001E9578 /* CrossOffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossOffUITests.swift; sourceTree = "<group>"; };
+		C70F4007297D8CEA001E9578 /* CrossOffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossOffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70F3FDE297D8CEA001E9578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F3FF4297D8CEA001E9578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F3FFE297D8CEA001E9578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70F3FD8297D8CE9001E9578 = {
+			isa = PBXGroup;
+			children = (
+				C70F3FE3297D8CEA001E9578 /* CrossOff */,
+				C70F3FFA297D8CEA001E9578 /* CrossOffTests */,
+				C70F4004297D8CEA001E9578 /* CrossOffUITests */,
+				C70F3FE2297D8CEA001E9578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70F3FE2297D8CEA001E9578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70F3FE1297D8CEA001E9578 /* CrossOff.app */,
+				C70F3FF7297D8CEA001E9578 /* CrossOffTests.xctest */,
+				C70F4001297D8CEA001E9578 /* CrossOffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C70F3FE3297D8CEA001E9578 /* CrossOff */ = {
+			isa = PBXGroup;
+			children = (
+				C70F3FE4297D8CEA001E9578 /* CrossOffApp.swift */,
+				C70F3FE6297D8CEA001E9578 /* Persistence.swift */,
+				C70F3FEB297D8CEA001E9578 /* ContentView.swift */,
+				C70F3FED297D8CEA001E9578 /* Assets.xcassets */,
+				C70F3FEF297D8CEA001E9578 /* CrossOff.entitlements */,
+				C70F3FE8297D8CEA001E9578 /* CrossOff.xcdatamodeld */,
+				C70F3FF0297D8CEA001E9578 /* Preview Content */,
+			);
+			path = CrossOff;
+			sourceTree = "<group>";
+		};
+		C70F3FF0297D8CEA001E9578 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C70F3FF1297D8CEA001E9578 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C70F3FFA297D8CEA001E9578 /* CrossOffTests */ = {
+			isa = PBXGroup;
+			children = (
+				C70F3FFB297D8CEA001E9578 /* CrossOffTests.swift */,
+			);
+			path = CrossOffTests;
+			sourceTree = "<group>";
+		};
+		C70F4004297D8CEA001E9578 /* CrossOffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C70F4005297D8CEA001E9578 /* CrossOffUITests.swift */,
+				C70F4007297D8CEA001E9578 /* CrossOffUITestsLaunchTests.swift */,
+			);
+			path = CrossOffUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70F3FE0297D8CEA001E9578 /* CrossOff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70F400B297D8CEA001E9578 /* Build configuration list for PBXNativeTarget "CrossOff" */;
+			buildPhases = (
+				C70F3FDD297D8CEA001E9578 /* Sources */,
+				C70F3FDE297D8CEA001E9578 /* Frameworks */,
+				C70F3FDF297D8CEA001E9578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossOff;
+			productName = CrossOff;
+			productReference = C70F3FE1297D8CEA001E9578 /* CrossOff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C70F3FF6297D8CEA001E9578 /* CrossOffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70F400E297D8CEA001E9578 /* Build configuration list for PBXNativeTarget "CrossOffTests" */;
+			buildPhases = (
+				C70F3FF3297D8CEA001E9578 /* Sources */,
+				C70F3FF4297D8CEA001E9578 /* Frameworks */,
+				C70F3FF5297D8CEA001E9578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70F3FF9297D8CEA001E9578 /* PBXTargetDependency */,
+			);
+			name = CrossOffTests;
+			productName = CrossOffTests;
+			productReference = C70F3FF7297D8CEA001E9578 /* CrossOffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C70F4000297D8CEA001E9578 /* CrossOffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70F4011297D8CEA001E9578 /* Build configuration list for PBXNativeTarget "CrossOffUITests" */;
+			buildPhases = (
+				C70F3FFD297D8CEA001E9578 /* Sources */,
+				C70F3FFE297D8CEA001E9578 /* Frameworks */,
+				C70F3FFF297D8CEA001E9578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70F4003297D8CEA001E9578 /* PBXTargetDependency */,
+			);
+			name = CrossOffUITests;
+			productName = CrossOffUITests;
+			productReference = C70F4001297D8CEA001E9578 /* CrossOffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C70F3FD9297D8CE9001E9578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C70F3FE0297D8CEA001E9578 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C70F3FF6297D8CEA001E9578 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C70F3FE0297D8CEA001E9578;
+					};
+					C70F4000297D8CEA001E9578 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C70F3FE0297D8CEA001E9578;
+					};
+				};
+			};
+			buildConfigurationList = C70F3FDC297D8CE9001E9578 /* Build configuration list for PBXProject "CrossOff" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C70F3FD8297D8CE9001E9578;
+			productRefGroup = C70F3FE2297D8CEA001E9578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70F3FE0297D8CEA001E9578 /* CrossOff */,
+				C70F3FF6297D8CEA001E9578 /* CrossOffTests */,
+				C70F4000297D8CEA001E9578 /* CrossOffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70F3FDF297D8CEA001E9578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F3FF2297D8CEA001E9578 /* Preview Assets.xcassets in Resources */,
+				C70F3FEE297D8CEA001E9578 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F3FF5297D8CEA001E9578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F3FFF297D8CEA001E9578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70F3FDD297D8CEA001E9578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F3FE5297D8CEA001E9578 /* CrossOffApp.swift in Sources */,
+				C70F3FE7297D8CEA001E9578 /* Persistence.swift in Sources */,
+				C70F3FEC297D8CEA001E9578 /* ContentView.swift in Sources */,
+				C70F3FEA297D8CEA001E9578 /* CrossOff.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F3FF3297D8CEA001E9578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F3FFC297D8CEA001E9578 /* CrossOffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F3FFD297D8CEA001E9578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F4008297D8CEA001E9578 /* CrossOffUITestsLaunchTests.swift in Sources */,
+				C70F4006297D8CEA001E9578 /* CrossOffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C70F3FF9297D8CEA001E9578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70F3FE0297D8CEA001E9578 /* CrossOff */;
+			targetProxy = C70F3FF8297D8CEA001E9578 /* PBXContainerItemProxy */;
+		};
+		C70F4003297D8CEA001E9578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70F3FE0297D8CEA001E9578 /* CrossOff */;
+			targetProxy = C70F4002297D8CEA001E9578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C70F4009297D8CEA001E9578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C70F400A297D8CEA001E9578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C70F400C297D8CEA001E9578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrossOff/CrossOff.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PF3JF53U7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteocytes.CrossOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C70F400D297D8CEA001E9578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrossOff/CrossOff.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PF3JF53U7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteocytes.CrossOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C70F400F297D8CEA001E9578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PF3JF53U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteocytes.CrossOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrossOff";
+			};
+			name = Debug;
+		};
+		C70F4010297D8CEA001E9578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PF3JF53U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteocytes.CrossOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrossOff";
+			};
+			name = Release;
+		};
+		C70F4012297D8CEA001E9578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PF3JF53U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteocytes.CrossOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossOff;
+			};
+			name = Debug;
+		};
+		C70F4013297D8CEA001E9578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PF3JF53U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteocytes.CrossOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossOff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70F3FDC297D8CE9001E9578 /* Build configuration list for PBXProject "CrossOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70F4009297D8CEA001E9578 /* Debug */,
+				C70F400A297D8CEA001E9578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70F400B297D8CEA001E9578 /* Build configuration list for PBXNativeTarget "CrossOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70F400C297D8CEA001E9578 /* Debug */,
+				C70F400D297D8CEA001E9578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70F400E297D8CEA001E9578 /* Build configuration list for PBXNativeTarget "CrossOffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70F400F297D8CEA001E9578 /* Debug */,
+				C70F4010297D8CEA001E9578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70F4011297D8CEA001E9578 /* Build configuration list for PBXNativeTarget "CrossOffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70F4012297D8CEA001E9578 /* Debug */,
+				C70F4013297D8CEA001E9578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C70F3FE8297D8CEA001E9578 /* CrossOff.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C70F3FE9297D8CEA001E9578 /* CrossOff.xcdatamodel */,
+			);
+			currentVersion = C70F3FE9297D8CEA001E9578 /* CrossOff.xcdatamodel */;
+			path = CrossOff.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C70F3FD9297D8CE9001E9578 /* Project object */;
+}
